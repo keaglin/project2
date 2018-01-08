@@ -5,7 +5,9 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Johnson-Jones Family Book
+    link(rel="stylesheet", href="assets/css/style.css", type="text/css")
+    script(src="assets/js/script.js")
   body
-    // - includes/header.pug
-    // - includes/main.pug
-    // - includes/footer.pug
+    prepend header
+    block content
+    append footer
