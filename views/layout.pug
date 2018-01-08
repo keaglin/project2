@@ -1,3 +1,4 @@
+//- layout.pug
 <!DOCTYPE html>
 html(lang="en")
   head
@@ -8,6 +9,6 @@ html(lang="en")
     link(rel="stylesheet", href="assets/css/style.css", type="text/css")
     script(src="assets/js/script.js")
   body
-    prepend header
+    include header
     block content
-    append footer
+    include footer
