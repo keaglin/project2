@@ -27,3 +27,5 @@ Your repo should contain...
   * **A ``readme.md`` file** in the root of your repo, with explanations of the technologies used, the approach taken, features, installation instructions, unsolved problems, etc.
   * **A `planning` directory** in the root of your repo containing a diagram mapping out your project domain. You are welcome to include other planning documents (e.g., wireframes, user stories).
   * A **link to your hosted, working application** in the URL section of your Github repo.
+
+- 
