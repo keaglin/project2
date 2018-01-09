@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 mongoose.Promise = Promise
 
-const People = new mongoose.Schema({
+const Person = new mongoose.Schema({
   name: String,
   location: String,
   occupation: String,
