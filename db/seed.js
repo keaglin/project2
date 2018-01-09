@@ -1,7 +1,7 @@
 const mongoose = require('./connection')
 const seeds   = require('./seeds.json')
 
-const People = mongoose.model('People', PersonSchema)
+const Person = mongoose.model('Person')
 
 mongoose.Promise = Promise
 

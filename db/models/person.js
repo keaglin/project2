@@ -7,4 +7,6 @@ const PersonSchema = new mongoose.Schema({
   birthDate: String
 })
 
+mongoose.model('Person', PersonSchema)
+
 module.exports = mongoose
