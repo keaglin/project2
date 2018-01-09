@@ -1,11 +1,15 @@
-schema
-model
+**To Do**
 connect db
 make seed data
 seed db
 /controllers
 
-pug page inside page/extends/inheritance
-
 bonus:
 integrate user model
+
+**In Progress**
+
+**Done**
+pug extends/inheritance/includes
+schema
+model
