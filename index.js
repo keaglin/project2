@@ -9,7 +9,7 @@ app.set('view engine', 'pug')
 app.use('/assets', express.static('public'))
 
 app.get('/', (req, res) => {
-  res.render('main')
+  res.render('index')
 })
 
 app.listen(app.get('port'), () => {
