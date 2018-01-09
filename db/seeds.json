@@ -3,24 +3,24 @@
     "name": "Von",
     "location": "DC",
     "occupation": "Developer",
-    "birthDate": 07/20/89
+    "birthDate": "07/20/89"
   },
   {
     "name": "Marcia",
     "location": "DC",
     "occupation": "UX Designer",
-    "birthDate": 05/23/87
+    "birthDate": "05/23/87"
   },
   {
     "name": "Daniel",
     "location": "North Carolina",
     "occupation": "Banker",
-    "birthDate": 03/25/81
+    "birthDate": "03/25/81"
   },
   {
     "name": "Eric",
     "location": "Virginia",
     "occupation": "Exchange Engineer",
-    "birthDate": 01/23/81
+    "birthDate": "01/23/81"
   }
 ]

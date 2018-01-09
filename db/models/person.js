@@ -4,9 +4,7 @@ const PersonSchema = new mongoose.Schema({
   name: String,
   location: String,
   occupation: String,
-  birthDate: Date
+  birthDate: String
 })
-
-mongoose.model('People', PersonSchema)
 
 module.exports = mongoose
