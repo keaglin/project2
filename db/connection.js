@@ -11,7 +11,7 @@ if (process.env.NODE_ENV == "production") {
     .catch(connectionError => console.log('Connection to prod db failed!', connectionError))
 } else {
   mongoose
-    .connect(mongoUri)
+    .connect(mongoUri, { useMongoClient: true })
     .then(connection => console.log(`Connection established to dev db '${connection.db.databaseName}'`))
     .catch(connectionError => console.log('Connection dev db failed!', connectionError))
 }

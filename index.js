@@ -3,6 +3,7 @@ const express          = require('express')
 const hbs              = require('express-handlebars')
 const PeopleController = require('./controllers/people')
 const parser           = require('body-parser')
+const methodOverride   = require('method-override')
 const app              = express()
 
 app.set('port', process.env.PORT || 3001)
@@ -21,6 +22,7 @@ app.use('/assets', express.static('public'))
 // app.get('/', (req, res) => {
 //   res.render('index')
 // })
+app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
   res.redirect('/people')
