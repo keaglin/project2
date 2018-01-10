@@ -1,3 +1,15 @@
 extends layout
 block content
-  p Hello world
+  for (var i = 0; i < people.length; i++) {
+    h3
+      a href("/people/people[i].name")
+        people[i].name
+  }
+  console.log(people)
+
+  //- <h2>Register New Candidate</h2>
+  //- <form action="/candidates" method="post">
+  //-   <input type="text" name="candidate[name]" placeholder="Name">
+  //-   <input type="text" name="candidate[year]" placeholder="Year">
+  //-   <input type="submit" value="Register">
+  //- </form>
