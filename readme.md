@@ -18,9 +18,9 @@ Deployed to Heroku
 Cloud DB set up with mLab
 
 #### Resources
-- codrops  
-- Materialize  
-- whenpresident (from following in class)  
+- [codrops](https://tympanus.net/codrops/css_reference/)  
+- [Materialize](http://next.materializecss.com/)  
+- [whenpresident](https://github.com/keaglin/whenpresidentexercise) (from following in class)  
 
 ## Project Screen Shots
 ![App Welcome](./planning/welcome.png "App Welcome")
