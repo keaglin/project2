@@ -48,12 +48,20 @@ I used the MEHN (Mongo, Express, Handlebars, Node) stack to build this project b
 We previously deployed to Github Pages but were directed to use Heroku this time. Github Pages is excellent for static sites but we needed a backend for this particular project so Heroku was an easy choice. We used mLab for our cloud database and used an environmental variable to connect it.  
 #### Obstacles
 When I set out, I thought translating what I knew from lessons and practice (some guided, some not) would take only about a day but I had trouble time-wise with Pug as well as conceptually. I couldn't find clear information regarding passing in data from the controller. Which is fine. I switched to Handlebars but then it took me longer than expected to make sure I was employing the right routes and HTTP verbs. 
-  
-
-
-
-
-
-
-
-This README brought to you by: https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<small>This README brought to you by: https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4</small>
