@@ -25,7 +25,7 @@ app.use('/assets', express.static('public'))
 app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
-  res.redirect('/people')
+  res.render('index')
 })
 app.use('/people', PeopleController)
 

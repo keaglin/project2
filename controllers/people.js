@@ -24,7 +24,7 @@ const Person   = mongoose.model('Person')
 router.get('/', (req, res) => {
   Person.find({})
     .then((people) => {
-      res.render('index', {
+      res.render('person-index', {
         people: people
       })
     })

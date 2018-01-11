@@ -1,13 +1,6 @@
-<h2>{{people.length}} people</h2>
-{{#each people as |person index|}}
-<h3>
-  <a href="/people/{{person.name}}">{{person.name}}</a>
-</h3>
-{{/each}}
+<h2 class="center">Welcome to the Johnson & Jones Family Book</h2>
 
-<h2>Add a Family Member</h2>
-<form action="/people" method="post">
-  <input type="text" name="person[name]" placeholder="Name">
-  <input type="text" name="person[location]" placeholder="Location">
-  <input type="submit" value="Add Person">
-</form>
+<div class="center">
+  <p>Research done by Marcia Johnson, daughter of Daniel Johnson and Dianna Jones.</p>
+  <p>Website designed and developed by Kevon Eaglin, husband of Marcia Johnson.</p>
+</div>

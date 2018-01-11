@@ -13,16 +13,21 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/people">Family Members</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
+      <div class="navbar-wrapper">
+        <a href="/" class="brand-logo">Family Book</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/people">Family Members</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div> 
     </nav>
   </header>
+  <main>
   {{{body}}}
-  <footer>
-    <p>&copy; Kevon Eaglin 2017. Made with &hearts; in DC.</p>
+  </main>
+  <footer class="page-footer black center">
+    <p class="white-text">&copy; Kevon Eaglin 2017. Made with &hearts; in DC.</p>
   </footer>
 </body>
 </html>
