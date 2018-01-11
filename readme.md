@@ -57,11 +57,4 @@ When I set out, I thought translating what I knew from lessons and practice (som
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <small>This README brought to you by: https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4</small>
