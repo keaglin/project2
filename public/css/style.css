@@ -1,7 +1,10 @@
 body {
-  margin: 0;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
+main {
+  flex: 1 0 auto;
+}

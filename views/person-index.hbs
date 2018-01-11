@@ -1,7 +1,7 @@
 <h2>{{people.length}} people</h2>
 {{#each people as |person index|}}
 <h3>
-  <a href="/people/{{person.name}}">{{person.name}}</a>
+  <a class="green-text darken-2" href="/people/{{person.name}}">{{person.name}}</a>
 </h3>
 {{/each}}
 
@@ -9,5 +9,7 @@
 <form action="/people" method="post">
   <input type="text" name="person[name]" placeholder="Name">
   <input type="text" name="person[location]" placeholder="Location">
-  <input type="submit" value="Add Person">
+  <input type="text" name="person[occupation]" placeholder="Occupation">
+  <input type="text" name="person[birthDate]" placeholder="Birth Date">
+  <input class="btn green darken-1" type="submit" value="Add Person">
 </form>
