@@ -23,15 +23,14 @@ Cloud DB set up with mLab
 - whenpresident (from following in class)  
 
 ## Project Screen Shots
+![App Welcome](./planning/welcome.png "App Welcome")
+![List of People](./planning/list.png "List of People")
+![Person Detail](./planning/index.png "Person Details")
 
-#### Example:   
-
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
-
-## Installation and Setup Instructions
+## Usage Instructions
+#### Prerequisites
 You will need `node` and `npm` installed globally on your machine.  
+#### Install and Setup
 1. Clone down this repository  
 2. Run `npm install`  
 3. Start Server with `npm start`   
