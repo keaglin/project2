@@ -1,4 +1,5 @@
 const express          = require('express')
+// remove commented code in production!
 // const pug              = require('pug')
 const hbs              = require('express-handlebars')
 const PeopleController = require('./controllers/people')
@@ -24,9 +25,11 @@ app.use('/assets', express.static('public'))
 // })
 app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
+
 app.get('/', (req, res) => {
   res.render('index')
 })
+
 app.use('/people', PeopleController)
 
 app.listen(app.get('port'), () => {

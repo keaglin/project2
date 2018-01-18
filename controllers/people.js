@@ -7,6 +7,13 @@ const Person   = mongoose.model('Person')
 // 1 to reduce typos
 // 2 because I don't have put, post and delete solidified yet
 
+/*
+Put - Edit something!
+Post - Create something!
+Delete - delete something!
+*/
+// Again remove commented code in production!
+
 // function getPeople() {
 //   (req, res) => {
 //     res.send('hello world')
@@ -61,6 +68,5 @@ router.delete('/:name', (req, res) => {
     res.redirect('/people')
   })
 })
-
 
 module.exports = router

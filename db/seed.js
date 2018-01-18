@@ -1,5 +1,5 @@
 const mongoose = require('./connection')
-const seeds   = require('./seeds.json')
+const seeds    = require('./seeds.json')
 
 const Person = mongoose.model('Person')
 
