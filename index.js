@@ -8,16 +8,6 @@ const app              = express()
 
 app.set('port', process.env.PORT || 3001)
 
-// app.set('view engine', 'pug')
-app.set('view engine', 'hbs')
-app.engine('.hbs', hbs({
-  extname:        '.hbs',
-  partialsDir:    'views/',
-  layoutsDir:     'views/',
-  defaultLayout:  'layout'
-}))
-
-app.use('/assets', express.static('public'))
 
 // app.get('/', (req, res) => {
 //   res.render('index')
@@ -25,7 +15,7 @@ app.use('/assets', express.static('public'))
 app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
-  res.render('index')
+  res.send('hello world')
 })
 app.use('/people', PeopleController)
 

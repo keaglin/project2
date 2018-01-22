@@ -24,9 +24,7 @@ const Person   = mongoose.model('Person')
 router.get('/', (req, res) => {
   Person.find({})
     .then((people) => {
-      res.render('person-index', {
-        people: people
-      })
+      res.json({ people: people })
     })
 })
 
@@ -37,7 +35,7 @@ router.get('/:name', (req, res) => {
   // use the name variable that we defined to get the one record
   // we want
   .then(person => {
-    res.render('person', { person: person })
+    res.json({ person: person })
   })
 })
 
