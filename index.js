@@ -5,9 +5,10 @@ const PeopleController = require('./controllers/people')
 const parser           = require('body-parser')
 const methodOverride   = require('method-override')
 const app              = express()
+const cors             = require('cors')
 
 app.set('port', process.env.PORT || 3001)
-
+app.use(cors())
 
 // app.get('/', (req, res) => {
 //   res.render('index')
