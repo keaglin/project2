@@ -16,7 +16,7 @@ This project is still being actively developed.
 - MongoDB  
 - Handlebars  
 Data modeled with MongooseJS  
-Deployed to Heroku
+Deployed to Heroku  
 Cloud DB set up with mLab
 
 #### Resources
@@ -57,4 +57,4 @@ When I set out, I thought translating what I knew from lessons and practice (som
 <br>
 <br>
 <br>
-<small>This README brought to you by: https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4</small>
+This README brought to you by: https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4
