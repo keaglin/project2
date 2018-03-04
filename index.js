@@ -1,6 +1,4 @@
 const express          = require('express')
-// const pug              = require('pug')
-const hbs              = require('express-handlebars')
 const PeopleController = require('./controllers/people')
 const parser           = require('body-parser')
 const methodOverride   = require('method-override')
@@ -10,9 +8,6 @@ const cors             = require('cors')
 app.set('port', process.env.PORT || 3001)
 app.use(cors())
 
-// app.get('/', (req, res) => {
-//   res.render('index')
-// })
 app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
