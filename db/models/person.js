@@ -2,9 +2,14 @@ const mongoose = require('mongoose')
 
 const PersonSchema = new mongoose.Schema({
   name: String,
+  birthDate: String,
+  deathDate: String,
+  spouse: String,
   location: String,
   occupation: String,
-  birthDate: String
+  // parents: String,
+  // children: String,
+  story: String
 })
 
 mongoose.model('Person', PersonSchema)
