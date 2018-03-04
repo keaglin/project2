@@ -1,26 +1,38 @@
 [
   {
     "name": "Kevon",
+    "birthDate": "07/20/89",
+    "deathDate": "",
+    "spouse": "Marcia",
     "location": "DC",
     "occupation": "Developer",
-    "birthDate": "07/20/89"
+    "story": ""
   },
   {
     "name": "Marcia",
+    "birthDate": "05/23/87",
+    "deathDate": "",
+    "spouse": "Kevon",
     "location": "DC",
     "occupation": "Teaching Assistant",
-    "birthDate": "05/23/87"
+    "story": ""
   },
   {
     "name": "Daniel",
+    "birthDate": "03/25/31",
+    "deathDate": "",
+    "spouse": "Dianna",
     "location": "North Carolina",
     "occupation": "Banker",
-    "birthDate": "03/25/31"
+    "story": ""
   },
   {
     "name": "Eric",
+    "birthDate": "01/23/81",
+    "deathDate": "",
+    "spouse": "",
     "location": "Virginia",
     "occupation": "Exchange Engineer",
-    "birthDate": "01/23/81"
+    "story": ""
   }
 ]
