@@ -7,9 +7,9 @@ const cors             = require('cors')
 
 app.set('port', process.env.PORT || 3001)
 app.use(cors())
-
 app.use(methodOverride('_method'))
 app.use(parser.urlencoded({ extended: true }))
+app.use(parser.json({extended: false}))
 app.get('/', (req, res) => {
   res.send('hello world')
 })
