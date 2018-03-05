@@ -8,6 +8,7 @@ router.get('/', (req, res) => {
     .then(people => {
       res.json(people)
     })
+    .catch(err => console.log('Woops!', err))
 })
 
 router.get('/:name', (req, res) => {
@@ -25,7 +26,7 @@ router.get('/:name', (req, res) => {
 router.post('/', (req, res) => {
   Person.create(req.body.person)
     .then(person => {
-      res.json(book)
+      res.json(person)
     })
     .catch(err => console.log('Woops!', err))
 })
