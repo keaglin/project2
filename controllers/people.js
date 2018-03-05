@@ -6,7 +6,7 @@ const Person   = mongoose.model('Person')
 router.get('/', (req, res) => {
   Person.find({})
     .then(people => {
-      res.json(people)
+      res.json({people: people})
     })
     .catch(err => console.log('Woops!', err))
 })
