@@ -18,7 +18,7 @@ router.get('/:name', (req, res) => {
   // use the name variable that we defined to get the one record
   // we want
   .then(person => {
-    res.json(person)
+    res.json({person: person})
   })
   .catch(err => console.log('Woops!', err))
 })
@@ -26,7 +26,7 @@ router.get('/:name', (req, res) => {
 router.post('/', (req, res) => {
   Person.create(req.body.person)
     .then(person => {
-      res.json(person)
+      res.json({person: person})
     })
     .catch(err => console.log('Woops!', err))
 })
@@ -34,7 +34,7 @@ router.post('/', (req, res) => {
 router.put('/:name', (req, res) => {
   Person.findOneAndUpdate({ name: req.params.name }, req.body.person, { new: true })
   .then(person => {
-    res.json(person)
+    res.json({person: person})
   })
   .catch(err => console.log('Woops!', err))
 })
@@ -42,7 +42,7 @@ router.put('/:name', (req, res) => {
 router.delete('/:name', (req, res) => {
   Person.findOneAndRemove({ name: req.params.name })
   .then(person => {
-    res.json(person)
+    res.json({person: person})
   })
   .catch(err => console.log('Woops!', err))
 })
