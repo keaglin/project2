@@ -1,7 +1,7 @@
 {{#if person}}
-<h2>{{person.name}}</h2>
+  <h2>{{person.name}}</h2>
 {{else}}
-<h2>That person couldn't be found!</h2>
+  <h2>That person couldn't be found!</h2>
 {{/if}}
 <h2>Update information</h2>
 <form action="/people/{{ person.name }}?_method=put" method="post">
